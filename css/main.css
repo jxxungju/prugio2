@@ -44,7 +44,7 @@ html,body{height: 100%;}
         .h_logo a{}
         .nav{}
         .menu{display: flex;}
-        .menu li{margin: 30px; color: white;}
+        .menu li{margin: 30px; color: white;border-bottom:1px solid transparent;}
         .menu li a{display: block;}
         .menu li:hover{border-bottom:1px solid white;}
 
