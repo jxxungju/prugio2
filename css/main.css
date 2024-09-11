@@ -226,7 +226,96 @@ html,body{height: 100%;}
         .f_inner{width: 80%; height: 80%; margin: 0 auto; }
         .f_a{font-family:"굴림"!important ; font-size: 12px; height: 100%;color: white; text-align: center ;line-height: 30px; margin: 0 auto;  }
 
+        
+        @media screen and (max-width:530px){
 
+            /* pop_right */
+        #pop_right{display:none ;}
+        
+        
+            /* header */
+        #header{
+            
+            width: 100%;
+            height: 35px;
+        }
+        .header_inner{}
+        .h_logo{width: 100px;}
+        .nav{display: none;}
+        .menu_btn{display: block;}
+        .m_nav{display: block; width: 150px; height: 200px;}
+        .m_nav li{margin: 15px auto;}
+        .m_nav li a:hover{border-bottom: 1px solid white;}
+        #main{height: auto;/* border: 1px solid blue; */}
+        .m_img .slick-dots{left: 50%; top: 135px;}
+        .m_img .slick-dots li button{width: 10px; height: 5px; margin: 0 2px}
+        .m_img .slick-dots li.slick-active button{width: 40px;}
+    
+        .main_p{/* border: 1px solid red; */ left:50%; top: 50%; transform: translate(-50%,-50%); text-shadow: 1px 1px 1px 1px black;}
+        .p_1{font-size: 7px;}
+        .m_bar{height: 15px; margin: 5px 30px;}
+        .p_4{font-size: 7px;}
+        .p_2{font-size: 10px; margin-top: 0;}
+        .p_3{font-size: 10px;}
+    
+        /* #brand_section */
+        #brand_section{margin: 10px auto;}
+        h2.title{font-size: 20px;  }
+    
+        .intr_img{height: 100px;width: 100%;}
+        .intr_p{left: 10%;top: 8px;}
+        .intr_p1{font-size: 10px;}
+        .intr_p2{font-size: 8px; margin: 5px auto;}
+        .con{font-size: 15px;}
+        .intr_con{flex-direction: column; margin: 15px;}
+        .con_bar{display: none;}
+        .con_bar2{display: block; margin: 15px auto;}
+        .con_p{font-size: 12px; margin: 15px 0;}
+    
+        /* #gated_section */
+        #gated_section{width: 90%; height: auto; margin:10px auto;overflow: hidden;text-align: center;}
+        .gated_inner{margin: 0 auto; flex-wrap: wrap;}
+        .g_right{display: flex;flex-direction: column; align-items: center; width: 100%;}
+        .g_bar{display: none;}
+        
+        .g_left{  width: 450px; height: 250px;background: url(../mb.img/mb\ 수영장.jpg); margin: 0 auto; /* border: 1px solid red; */ }
+        /* .g_left:hover a{transform: scale(1.4 );transition: 0.3s;} */
+        .g_img2{width: 450px; height: 250px;  background: url(../mb.img/mb_right.jpg) no-repeat;
+            /* ;right: 38px; top: 300px; */position: static;top:0;right: 0;}
+        .mbg_p{display: block;}
+        .g_p{display: none;}
+        /* sky_section */
+        #sky_section{width: 90%; height: auto;margin:10px auto; overflow: hidden; text-align: center;}
+        .sky_inner{flex-wrap: wrap; margin: 0 auto;}
+        .s_right{width: 450px; height: 250px; background:url(../mb.img/sky.jpg)no-repeat;margin: 0 auto; }
+        .s_img2{width: 450px; height: 250px;  background: url(../mb.img/sky1.jpg)no-repeat; position: static; top: 0;right: 0; }
+        .s_p{display: none;}
+        .mbs_p{display: block;}
+        #pop{left:20px;}
+    /* prugio_section */
+    #prugio_section{height: 60%; }
+    .title1{font-size: 20px;}
+    .title_1{font-size: 15px;}
+    .p_p{font-size: 10px;}
+    .P_box{display: none;}
+    
+    .mb-p_btn{display: flex;margin-top:50px;}
+    .mbbox_form1{/* display: block; */font-size: 10px; z-index: 10000;}
+    .mbbox_form2{/* display: block; */font-size: 10px;z-index: 10000;}
+    /* .p_btn1:hover{background-color: black;}
+    .p_btn2:hover{background-color: black;} */
+    .p_btn2{}
+    
+    #pop{left: 100px;} 
+    #pop_footer{display:block; left: 150px;  }
+    
+    /* footer */
+    #footer{height: 130px}
+    .f_inner{}
+    .f_a{font-size: 8px; }
+    
+    
+    }
 
 
  /* 모바일 */
@@ -238,6 +327,7 @@ html,body{height: 100%;}
     
         /* header */
     #header{
+        
         width: 100%;
         height: 35px;
     }
@@ -318,3 +408,4 @@ html,body{height: 100%;}
 
 
 }
+
