@@ -8,9 +8,10 @@ html,body{height: 100%;}
 
 /* pop */
 
-#pop{position: absolute;z-index: 1000; left: 50px; top: 100px; width:350px; height: 500px; border: 2px  groove white;z-index: 2000;}
-        .pop_inner{padding: 20px;  width:350px;
-            height: 500px;background:url(../img/pop\ 찐.jpg) no-repeat; color: white;}
+#pop{position: absolute;z-index: 1000; left: 50px; top: 100px; width:350px; height: 500px; 
+     border: 2px  groove white;z-index: 2000; background-image:url(../img/pop\ 찐.jpg);background-size:cover;color: white;}
+        .pop_inner{padding: 20px;  
+            }
         .pop_txt{font-size: 20px;text-align: center;}
         .poptxt1{text-align: center;/* font-weight: bold; */ }
         .poptxt2{font-size: 12px; margin-top: 20px; font-weight: bold; text-align: center;}
@@ -54,11 +55,11 @@ html,body{height: 100%;}
         .menu_btn span:nth-child(1){position: absolute; left: 0;top: 0;}
         .menu_btn span:nth-child(2){position: absolute;  left: 0;top: 33%;  }
         .menu_btn span:nth-child(3){position: absolute; left: 0;top: 66%; }
-        .m_nav{ position: absolute;top: 35px;right: -200px;width: 100px;height: 117px; background-color:rgba(0, 0, 0, 0.8); transition: all 0.3s;z-index: 100;}
+        .m_nav{display: none; position: absolute;top: 35px;right: -200px;width: 600px;height: 400px; background-color:rgba(0, 0, 0, 0.5); transition: all 0.3s;z-index: 2000;}
         .m_nav.on{
             right: 0;
         }
-        .m_nav li{text-align: center; margin: 2px 0; font-size: 13px; color:white; }
+        .m_nav li{text-align: center; margin: 2px 0; font-size: 16px; color:white; }
         .m_nav li a{}
 
 
@@ -87,7 +88,7 @@ html,body{height: 100%;}
         .p_4{ font-size: 18px; font-weight:initial;}
         .p_2{margin-top: 15px; font-size: 30px; font-weight: bold;}
         .p_3{font-size: 30px; font-weight: bold;}
-
+        
 
        
 
@@ -156,7 +157,7 @@ html,body{height: 100%;}
     /*모바일 관심 고객 */
         .mb-p_btn{width: 100%; margin: 0 auto;  display: none;
             justify-content: space-around;  align-items: center center; color: white; position: relative;height: auto;
-        
+            
         }
         .mb-p_btn a{display: block;height: auto;position: relative;}
         .p_btn1{width: 150px; height: 150px; border-radius: 50%; background-color: #022c44;}
@@ -227,7 +228,7 @@ html,body{height: 100%;}
         .f_a{font-family:"굴림"!important ; font-size: 12px; height: 100%;color: white; text-align: center ;line-height: 30px; margin: 0 auto;  }
 
         
-        @media screen and (max-width:530px){
+        @media screen and (max-width:600px){
 
             /* pop_right */
         #pop_right{display:none ;}
@@ -243,7 +244,7 @@ html,body{height: 100%;}
         .h_logo{width: 100px;}
         .nav{display: none;}
         .menu_btn{display: block;}
-        .m_nav{display: block; width: 150px; height: 200px;}
+        .m_nav{display: block; width: 200px; height: 350px;}
         .m_nav li{margin: 15px auto;}
         .m_nav li a:hover{border-bottom: 1px solid white;}
         #main{height: auto;/* border: 1px solid blue; */}
@@ -263,7 +264,7 @@ html,body{height: 100%;}
         h2.title{font-size: 20px;  }
     
         .intr_img{height: 100px;width: 100%;}
-        .intr_p{left: 10%;top: 8px;}
+        .intr_p{left: 100px;top: 8px;}
         .intr_p1{font-size: 10px;}
         .intr_p2{font-size: 8px; margin: 5px auto;}
         .con{font-size: 15px;}
@@ -306,7 +307,14 @@ html,body{height: 100%;}
     .p_btn2:hover{background-color: black;} */
     .p_btn2{}
     
-    #pop{left: 100px;} 
+    #pop{width: 300px;
+        height: 350px;background-image:url(../img/pop\ 찐.jpg);background-size:cover;color: white; }
+    .pop_inner{padding: 8px;}
+    .pop_txt{font-size: 8px;}
+    .poptxt1{}     
+    .poptxt2{font-size: 8px;}     
+    .poptxt3{margin-top: 5px; font-size: 13px;}     
+    .poptxt4{font-size: 8px;margin-top: 0px;line-height: 8px;}     
     #pop_footer{display:block; left: 150px;  }
     
     /* footer */
@@ -397,9 +405,16 @@ html,body{height: 100%;}
 /* .p_btn1:hover{background-color: black;}
 .p_btn2:hover{background-color: black;} */
 .p_btn2{}
+#pop{width: 300px;
+    height: 350px;background-image:url(../img/pop\ 찐.jpg);background-size:cover;color: white; }
+.pop_inner{padding: 8px;}
+.pop_txt{font-size: 8px;}
+.poptxt1{}     
+.poptxt2{font-size: 8px;}     
+.poptxt3{margin-top: 5px; font-size: 13px;}     
+.poptxt4{font-size: 8px;margin-top: 0px;line-height: 8px;}     
+#pop_footer{display:block; left: 150px;  }
 
-#pop{/* border: 1px solid red; width: 20%; */ } 
-#pop_footer{display:block;  }
 
 /* footer */
 #footer{height: 130px}

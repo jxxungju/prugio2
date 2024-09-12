@@ -56,6 +56,16 @@ $(function () {
     $(".mb_close").click(function(){
         $(".mbbox_form2").hide();
     })//
+    $(".nav_pop").click(function(){
+        $("#pop").show();
+    })
+    $(".nav_people").click(function(){
+        $(".mbbox_form1").show();
+    })
+    $(".nav_re").click(function(){
+        $(".mbbox_form2").show();
+    })
+
 
 /*     $(".menu_btn").click(function(){
         $(".m_menu").show();
