@@ -55,7 +55,7 @@ html,body{height: 100%;}
         .menu_btn span:nth-child(1){position: absolute; left: 0;top: 0;}
         .menu_btn span:nth-child(2){position: absolute;  left: 0;top: 33%;  }
         .menu_btn span:nth-child(3){position: absolute; left: 0;top: 66%; }
-        .m_nav{display: none; position: absolute;top: 35px;right: -200px;width: 600px;height: 400px; background-color:rgba(0, 0, 0, 0.5); transition: all 0.3s;z-index: 2000;}
+        .m_nav{display: none; position: absolute;top: 35px;right: -200px;width: 600px;height: 400px; background-color:rgba(0, 0, 0, 1); transition: all 0.3s;z-index: 2000;}
         .m_nav.on{
             right: 0;
         }
