@@ -3,7 +3,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 ul,li{list-style: none;}
 a{text-decoration: none; color: inherit;}
-html,body{height: 100%;}
+html,body{height: 100%; overflow-x: hidden;}
 
 
 /* pop */
@@ -55,7 +55,7 @@ html,body{height: 100%;}
         .menu_btn span:nth-child(1){position: absolute; left: 0;top: 0;}
         .menu_btn span:nth-child(2){position: absolute;  left: 0;top: 33%;  }
         .menu_btn span:nth-child(3){position: absolute; left: 0;top: 66%; }
-        .m_nav{color: black; display: none; position: absolute;top: 35px;right: -200px;width: 500px;height: 400px; background-color:rgb(243, 238, 238); 
+        .m_nav{color: black; display: none; position: absolute;top: 35px;right: -200px;width: 500px;height:100vh ; background-color:rgb(243, 238, 238); 
             transition: all 0.3s;z-index: 2000; text-decoration: double;}
         .m_nav.on{
             right: 0;
@@ -248,8 +248,8 @@ html,body{height: 100%;}
         .h_logo{width: 100px;}
         .nav{display: none;color: black;}
         .menu_btn{display: block;}
-        .m_nav{display: block; width: 200px; height: 350px;background-color: #e7e9eb; opacity: 0.8;}
-        .m_nav li{margin: 15px auto;}
+        .m_nav{display: block; width: 200px; height:100vh;background-color: #e7e9eb; opacity: 0.8;}
+        .m_nav li{margin: 20px auto;}
         .m_nav li a:hover{text-decoration: double;}
         #main{height: auto;/* border: 1px solid blue; */}
         .m_img .slick-dots{left: 50%; top: 135px;}
@@ -347,7 +347,7 @@ html,body{height: 100%;}
     .h_logo{width: 100px;}
     .nav{display: none;}
     .menu_btn{display: block;}
-    .m_nav{display: block; background-color: #67808f;}
+    .m_nav{display: block;height: 100vh;}
     .m_nav li{}
     .m_nav li a:hover{border-bottom: 1px solid white;}
     #main{height: auto;/* border: 1px solid blue; */}
