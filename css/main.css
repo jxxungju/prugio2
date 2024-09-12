@@ -64,7 +64,7 @@ html,body{height: 100%; overflow-x: hidden;}
         .m_nav li{text-align: center; margin: 2px 0; font-size: 16px; color:black; }
         .m_nav li a{/* display: block; */}
         .m_nav li:hover a{border-bottom: 1px solid black;}
- 
+
 
 
 /* <!-- main --> */
@@ -171,11 +171,11 @@ html,body{height: 100%; overflow-x: hidden;}
         .p_btn_p{font-size: 15px;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%); }
 
         .p_btn_p span{display: block; text-align: center; font-size: 15px;}
-        .mbbox_form1{display: none;width: 95%;height: auto; border: 4px groove rgb(216, 207, 207);position: absolute;
+        .mbbox_form1{display: none;width: 95%;height: 300px; border: 4px groove rgb(216, 207, 207);position: absolute;
         left: 50%; top: 50%; transform: translate(-50%,-50%); background-color:#022c44; color: white; font-size: 10px;
         }
         .mb_submit:hover{}
-        .mbbox_form2{display: none;width: 95%; height: auto;border: 4px groove rgb(216, 207, 207);position: absolute;
+        .mbbox_form2{display: none;width: 95%; height: 300px;border: 4px groove rgb(216, 207, 207);position: absolute;
             left: 50%; top: 50%; transform: translate(-50%,-50%); background-color:#135a55; color: white;}
         .mb_close{width:50px; height: 30px; background-color: white; border: none; color: black;
             font-weight: bold; border-radius: 5px;}
@@ -246,7 +246,7 @@ html,body{height: 100%; overflow-x: hidden;}
         }
         .header_inner{}
         .h_logo{width: 100px;}
-        .nav{display: none;color: black;}
+        .nav{display: none;color: black; z-index: 10001;}
         .menu_btn{display: block;}
         .m_nav{display: block; width: 200px; height:100vh;background-color: #e7e9eb; opacity: 0.8;}
         .m_nav li{margin: 20px auto;}
@@ -305,11 +305,15 @@ html,body{height: 100%; overflow-x: hidden;}
     .P_box{display: none;}
     
     .mb-p_btn{display: flex;margin-top:50px;}
-    .mbbox_form1{/* display: block; */font-size: 10px;/*  z-index: ; */}
-    .mbbox_form2{/* display: block; */font-size: 10px;/* z-index: 10000; */}
+    .mbbox_form1{/* display: block; */font-size: 12px; z-index: 10000; height: 350px; }
+    .mbbox_form2{/* display: block; */font-size: 12px;z-index: 10000; height: 350px;}
     /* .p_btn1:hover{background-color: black;}
     .p_btn2:hover{background-color: black;} */
     .p_btn2{}
+    .submit{width: 50px; height: 20px;}
+    .mb_close{width: 50px; height: 20px;}
+    .submit1{width: 50px; height: 20px;}
+    .mbbox_form1 table tr td{margin: 20px 0;}
     
     #pop{width: 300px;
         height: 350px;background-image:url(../img/pop\ 찐.jpg);background-size:cover;color: white; }
@@ -345,7 +349,7 @@ html,body{height: 100%; overflow-x: hidden;}
     }
     .header_inner{}
     .h_logo{width: 100px;}
-    .nav{display: none;}
+    .nav{display: none;z-index: 10001;}
     .menu_btn{display: block;}
     .m_nav{display: block;height: 100vh;}
     .m_nav li{}
@@ -354,14 +358,15 @@ html,body{height: 100%; overflow-x: hidden;}
     .m_img .slick-dots{left: 50%; top: 135px;}
     .m_img .slick-dots li button{width: 10px; height: 5px; margin: 0 2px}
     .m_img .slick-dots li.slick-active button{width: 40px;}
-
+    .submit{width: 80%;}
+    .submit1{}
     .main_p{/* border: 1px solid red; */ left:50%; top: 50%; transform: translate(-50%,-50%); text-shadow: 1px 1px 1px 1px black;}
     .p_1{font-size: 7px;}
     .m_bar{height: 15px; margin: 5px 30px;}
     .p_4{font-size: 7px;}
     .p_2{font-size: 10px; margin-top: 0;}
     .p_3{font-size: 10px;}
-
+    
     /* #brand_section */
     #brand_section{margin: 10px auto;}
     h2.title{font-size: 20px;  }
@@ -386,7 +391,7 @@ html,body{height: 100%; overflow-x: hidden;}
     /* .g_left:hover a{transform: scale(1.4 );transition: 0.3s;} */
     .g_img2{width: 450px; height: 250px;  background: url(../mb.img/mb_right.jpg) no-repeat;
         /* ;right: 38px; top: 300px; */position: static;top:0;right: 0;}
-    .mbg_p{display: block;}
+    .mbg_p{display: block; text-align: center;}
     .g_p{display: none;}
     /* sky_section */
     #sky_section{width: 90%; height: auto;margin:10px auto; overflow: hidden; text-align: center;}
@@ -394,7 +399,7 @@ html,body{height: 100%; overflow-x: hidden;}
     .s_right{width: 450px; height: 250px; background:url(../mb.img/sky.jpg)no-repeat;margin: 0 auto; }
     .s_img2{width: 450px; height: 250px;  background: url(../mb.img/sky1.jpg)no-repeat; position: static; top: 0;right: 0; }
     .s_p{display: none;}
-    .mbs_p{display: block;}
+    .mbs_p{display: block; text-align: center;}
     #pop{left:20px;}
 /* prugio_section */
 #prugio_section{height: 60%; }
@@ -404,8 +409,8 @@ html,body{height: 100%; overflow-x: hidden;}
 .P_box{display: none;}
 
 .mb-p_btn{display: flex;margin-top:50px;}
-.mbbox_form1{/* display: block; */font-size: 10px; z-index: 10000;}
-.mbbox_form2{/* display: block; */font-size: 10px;z-index: 10000;}
+.mbbox_form1{/* display: block; */ width: 80%; height: 350px; font-size: 12px; z-index: 10000;}
+.mbbox_form2{/* display: block; */width: 80%;  height: 350px;font-size: 12px;z-index: 10000;}
 /* .p_btn1:hover{background-color: black;}
 .p_btn2:hover{background-color: black;} */
 .p_btn2{}
