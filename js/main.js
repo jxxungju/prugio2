@@ -88,10 +88,10 @@ $(function () {
     if($(window).innerWidth()>=560 ){
         if(top >= 500){
             /* $("#header").css({"background-color": "#022c44"}) */
-            $("#pop_right").show()
+            $("#pop_right").show();
         }else{
             /* $("#header").css({"background-color": "rgba(8, 21, 99, 0.4)"}) */
-            $("#pop_right").hide()
+            $("#pop_right").hide();
     }
 }
 
